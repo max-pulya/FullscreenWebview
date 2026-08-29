@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:hint="loadUrl"
+            android:id="@+id/loadUrlField">
+
+        </EditText>
+        <!--<EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="loadData"
+            android:id="@+id/loadDataField">
+
+        </EditText>-->
+        <Button
+            android:id="@+id/reloadButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#990000"
+            android:textColor="#ffffff"
+            android:text="reload" />
+        <Button
+            android:id="@+id/newTabButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#990000"
+            android:textColor="#ffffff"
+            android:text="New tab"
+            />
+    </LinearLayout>
+
+</ScrollView>
